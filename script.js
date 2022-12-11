@@ -45,7 +45,7 @@ function reset(e){
     done = true;
     history = '';
     display.textContent = '';
-    result.textContent = '';
+    result.textContent = 'ON';
 }
 
 function appendValue(e){
